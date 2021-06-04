@@ -1,0 +1,84 @@
+<html>
+<head></head>
+<body>
+
+<h1>テーブルのセルにマウスが乗っているとき行の色を変える</h1>
+
+<div>
+マウスカーソルが乗っている時にCSSを適用する場合は、リンクと同様に擬似クラス「:hover」を使います。
+</div>
+
+<style>
+  .ev_tbl tr:hover td {
+    background-color: #909fff;
+  }
+</style>
+
+<br>
+<table class="ev_tbl" border="1">
+  <tr>
+    <th>ID</th>
+    <th>名称</th>
+    <th>人数</th>
+    <th>日付</th>
+  </tr>
+  <tr>
+    <td>A0001</td>
+    <td>外出</td>
+    <td>5人</td>
+    <td>2021/08/12</td>
+  </tr>
+  <tr>
+    <td>B0002</td>
+    <td>訪問</td>
+    <td>3人</td>
+    <td>2021/08/20</td>
+  </tr>
+  <tr>
+    <td>C0003</td>
+    <td>来客</td>
+    <td>5人</td>
+    <td>2021/04/16</td>
+  </tr>
+</table>
+
+<br>
+
+<textarea cols="40" rows="20">
+<style>
+  .ev_tbl tr:hover td {
+    background-color: #909fff;
+  }
+</style>
+
+<table class="ev_tbl" border="1">
+  <tr>
+    <th>ID</th>
+    <th>名称</th>
+    <th>人数</th>
+    <th>日付</th>
+  </tr>
+  <tr>
+    <td>A0001</td>
+    <td>外出</td>
+    <td>5人</td>
+    <td>2021/08/12</td>
+  </tr>
+  <tr>
+    <td>B0002</td>
+    <td>訪問</td>
+    <td>3人</td>
+    <td>2021/08/20</td>
+  </tr>
+  <tr>
+    <td>C0003</td>
+    <td>来客</td>
+    <td>5人</td>
+    <td>2021/04/16</td>
+  </tr>
+</table>
+</textarea>
+
+
+</body>
+</html>
