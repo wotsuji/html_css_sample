@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<style>
+.text-select-none {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+</style>
+
+</head>
+<body>
+
+<h1>CSSでテキストを範囲選択させない</h1>
+
+<div>
+CSSで範囲選択をさせないようにする。<br>
+個人的意見としてユーザービリティが微妙になるので非推奨と思いますがCSSの機能として存在する。
+</div>
+
+<br>
+
+-----------------------------------------<br>
+<div class="text-select-none">
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+この文章は範囲選択ができなくなっています。<br>
+</div>
+-----------------------------------------<br>
+<br>
+
+<textarea cols="40" rows="15">
+<style>
+.text-select-none {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+</style>
+
+<div class="text-select-none">
+この文章は範囲選択ができなくなっています。<br>
+</div>
+
+</textarea>
+
+
+</body>
+</html>
